@@ -97,7 +97,7 @@ export const experience = [
     date: "Feb 2024 – May 2025",
   },
   {
-    title: "Founder · Glato AI",
+    title: "Cofounder · Glato AI",
     description:
       "Built a full-stack AI video ads generator for TikTok Shops and Facebook Ads, reached $110K ARR, 50K signups, and hit Product Hunt’s #2 Product of the Day, all before graduating Stanford.",
     date: "2023 – 2024",
