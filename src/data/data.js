@@ -105,32 +105,32 @@ export const experience = [
 ];
 
 export const blogs = [
-    {
-        title: "How Komiko hit 3M annual visits in 15 months",
-        date: "Jan 2026",
-        link: "https://srijon.dev/blog/komiko-growth",
-    },
-    {
-        title: "Inside the a16z Speedrun-backed fundraise",
-        date: "Nov 2025",
-        link: "https://srijon.dev/blog/speedrun-fundraise",
-    },
-    {
-        title: "Scaling scholarship operations with AI",
-        date: "Sep 2025",
-        link: "https://srijon.dev/blog/scholarship-ai",
-    },
+  {
+    title: "How Komiko hit 3M annual visits in 15 months",
+    date: "Jan 2026",
+    link: "https://srijon.dev/blog/komiko-growth",
+  },
+  {
+    title: "Inside the a16z Speedrun-backed fundraise",
+    date: "Nov 2025",
+    link: "https://srijon.dev/blog/speedrun-fundraise",
+  },
+  {
+    title: "Scaling scholarship operations with AI",
+    date: "Sep 2025",
+    link: "https://srijon.dev/blog/scholarship-ai",
+  },
 ];
 
 export const education = [
-    {
-        institution: "Stanford University",
-        degree: "B.S. Computer Science (AI Track)",
-        year: "2023",
-        highlights: [
-            "Specialized in Artificial Intelligence and Human-Computer Interaction.",
-            "Logged 215 units purely out of curiosity even though 180 were required to graduate.",
-            "Took graduate-level AI, blockchain, and HCI courses while nearly pursuing a joint philosophy major.",
-        ],
-    },
+  {
+    institution: "Stanford University",
+    degree: "B.S. Computer Science (AI Track)",
+    year: "2023",
+    highlights: [
+      "Specialized in Artificial Intelligence and Human-Computer Interaction.",
+      "Took 215 units purely out of curiosity (even though 180 were required to graduate).",
+      "Dabbled in graduate-level AI, blockchain, and HCI courses while nearly pursuing a joint literature major.",
+    ],
+  },
 ];
