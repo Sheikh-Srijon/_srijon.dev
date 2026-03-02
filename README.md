@@ -1,92 +1,31 @@
-# NextJS Portfolio Template
+# _srijon.dev_ — Sheikh Srijon Portfolio
 
-A minimal, clean portfolio template built with Next.js. Perfect for developers who want a simple yet professional online presence without the complexity.
+This repository powers the public site for Sheikh Srijon, an AI-first founder building through Applash AI, Komiko, and Glato AI.
 
-## Features
-- 🚀 Fast and lightweight
-- 📱 Fully responsive
-- 🔍 SEO friendly
-- 🌙 Dark/Light mode
-- 🎨 Clean, minimal design
-- ⚡ Easy to customize
-- 🚦 Next.js App Router ready
-- 📊 Analytics-ready (add via `layout.js`)
+## Highlights
+
+- Personalized hero and skill narrative tailored to Sheikh Srijon’s background (Stanford CS ’23, EB1A Einstein visa, a16z Speedrun backing).  
+- Work sections that spotlight study-abroad infrastructure, generative media ops, and AI-native monetization tools.  
+- Categorized badge grid for technical vs. strategy competencies and archived contact form logic for later reuse.
 
 ## Tech Stack
 
-- Next.js 15
-- Tailwind CSS
-- JavaScript
-- DaisyUI
+- Next.js 15 (App Router)  
+- Tailwind CSS + DaisyUI  
+- React components powered by data in `src/data/data.js`
 
-## Deploy
+## Local development
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSachinbhujel%2FNextJS-Portfolio-Template)
+1. Install dependencies with `npm install`.  
+2. Run the dev server with `npm run dev` and open `http://localhost:3000`.  
+3. Adjust the content inside `src/data/data.js` if you need to refresh copy, project links, or skills.
 
-## Customization
+## Deployment
 
-Edit `src/data/data.js` to add your information:
+- Deploy on Vercel by running `npx vercel --prod` from the repo root (after authenticating with Vercel).  
+- The site also respects the data-driven metadata objects under `src/data/data.js`, so refreshes there automatically update SEO tags and page titles.
 
-```
-export const about = {
-  name: "Your Name",
-  role: "Your Role",
-  about: "Your bio and description...",
-  email: "your.email@example.com"
-};
+## Notes
 
-export const seo = {
-    title: "Minimal, clean Next.js portfolio template",
-    description: "Minimal, clean Next.js portfolio template for developers seeking a simple, professional online presence without extra complexity.",
-    keywords: "portfolio, web developer, Next.js, developer portfolio, minimal portfolio",
-}
-
-export const forms = {
-    formspreeUrl: "https://formspree.io/f/<url>",
-}
-
-export const skills = [
-  { name: "Html", icon: "/html.svg" },
-  { name: "React", icon: "/react.svg" }
-];
-
-export const socials = {
-  github: "https://github.com/yourusername",
-  twitter: "https://twitter.com/yourusername"
-};
-
-export const projects = {
-  pinProjects: [
-    {
-      title: "Project Name",
-      description: "Brief description of your project",
-      tags: ["React", "CSS", "JavaScript"],
-      link: "https://your-project.com"
-    }
-  ],
-  otherProjects: [
-    {
-      title: "Project Name",
-      description: "Brief description of your project",
-      tags: ["React", "CSS", "JavaScript"],
-      link: "https://your-project.com"
-    }
-  ]
-}
-
-export const experience = [
-    {
-        title: "Your Title",
-        description: "Your Descriptions",
-        date: "Date",
-    }
-];
-
-export const blogs = [
-    {
-        title: "Your Blog Title",
-        date: "Date",
-        link: "#",
-    }
-];
-```
+- The contact form is archived in `src/archived/contact/page.js`; no active route exists at `/contact`.  
+- The repository remains under the MIT license found in `LICENSE`, which must stay in any redistributed copy.
