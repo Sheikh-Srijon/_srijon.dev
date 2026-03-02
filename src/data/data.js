@@ -2,7 +2,7 @@ export const about = {
   name: "Sheikh Srijon",
   role: "AI-first founder & lifelong hacker",
   about:
-    "Serial founder backed by a16z Speedrun. Co-raised $4M, built multiple products to 100K+ users, and helped students unlock $24M+ in scholarships. Stanford CS '23 and EB1A Einstein Visa holder — granted by the US Government top 1% professionals in AI.",
+    "Serial founder. Previously backed by a16z Speedrun. Co-raised $4M, built multiple products to 100K+ users, and helped students unlock $24M+ in scholarships. Stanford CS '23 and EB1A Einstein Visa holder — granted by the US Government top 1% professionals in AI.",
   email: "sheikhsrijon@gmail.com",
   location: "San Francisco, CA",
   education: "Stanford CS '23",
