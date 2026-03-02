@@ -3,8 +3,10 @@ import { projects , seo } from "@/data/data";
 
 export const metadata = {
     title: `Projects | ${seo.title}`,
-    description: "Explore a curated collection of web development projects built with Next.js, React, and modern web technologies.",
-    keywords: "projects, web development, Next.js, React, JavaScript, portfolio"
+    description:
+        "Product highlights from Sheikh Srijon — the AI-first founder behind Applash AI, Komiko, and Glato AI focused on education, generative media, and creator monetization.",
+    keywords:
+        "Sheikh Srijon, AI founder, Applash AI, Komiko, Glato AI, scholarships, generative media",
 };
 
 function Projects() {
