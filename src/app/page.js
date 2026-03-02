@@ -12,10 +12,10 @@ export default function Home() {
                 <main className="mt-5 p-4">
                     <Profile />
                     <About />
+                    <Experience />
                     <Education />
                     <ProjectsList />
                     <TechLists />
-                    <Experience />
                 </main>
             </div>
         </>
