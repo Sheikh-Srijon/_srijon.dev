@@ -122,6 +122,71 @@ export const blogs = [
   },
 ];
 
+export const mediaReports = [
+  {
+    title: "Story Engine secures $750K to advance AI-powered anime and webtoon creation",
+    outlet: "The AI Insider",
+    date: "February 1, 2025",
+    dateIso: "2025-02-01",
+    link: "https://theaiinsider.tech/2025/02/01/story-engine-secures-750k-to-advance-ai-powered-anime-and-webtoon-creation/",
+    summary:
+      "Coverage of Story Engine's fundraising and product direction in AI-native anime and webtoon workflows.",
+  },
+  {
+    title: "Bangladeshi Stanford graduate's AI startup receives $750K funding",
+    outlet: "The Daily Star",
+    date: "September 14, 2024",
+    dateIso: "2024-09-14",
+    link: "https://www.thedailystar.net/tech-startup/news/bangladeshi-stanford-graduates-ai-startup-receives-750k-funding-3702786",
+    summary:
+      "Bangladesh press coverage highlighting the funding milestone and founder background.",
+  },
+  {
+    title: "Bangladeshi young scientist gets $750,000 funds for AI innovation",
+    outlet: "Bangladesh Post",
+    date: "Date unavailable",
+    dateIso: null,
+    link: "https://bangladeshpost.net/posts/bangladeshi-young-scientist-gets-750-000-funds-for-ai-innovation-145003",
+    summary:
+      "National media story covering financing and innovation outcomes tied to Story Engine.",
+  },
+  {
+    title: "Story Engine Inc. company profile",
+    outlet: "a16z speedrun",
+    date: "Batch profile",
+    dateIso: null,
+    link: "https://speedrun.a16z.com/companies/story-engine-inc",
+    summary:
+      "Accelerator portfolio profile listing company thesis, team context, and product category.",
+  },
+  {
+    title: "অন্য এক বিতার্কিকের গল্প",
+    outlet: "Prothom Alo",
+    date: "Date unavailable",
+    dateIso: null,
+    link: "https://www.prothomalo.com/lifestyle/%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%8F%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA",
+    summary:
+      "Lifestyle profile feature mentioning Sheikh Rifayet Daiyan Srijon.",
+  },
+  {
+    title: "Junior Water Prize finalists head to Stockholm (Portuguese edition)",
+    outlet: "Xylem - Making Waves (pt-ao)",
+    date: "August 19, 2015",
+    dateIso: "2015-08-19",
+    link: "https://www.xylem.com/pt-ao/making-waves/water-utilities-news/junior-water-prize-finalists-head-to-stockholm/",
+    summary:
+      "International profile mention in Xylem's coverage of global finalists and youth innovation.",
+  },
+  {
+    title: "Junior Water Prize finalists head to Stockholm (Finnish edition)",
+    outlet: "Xylem - Making Waves (fi-fi)",
+    date: "August 19, 2015",
+    dateIso: "2015-08-19",
+    link: "https://www.xylem.com/fi-fi/making-waves/water-utilities-news/junior-water-prize-finalists-head-to-stockholm/",
+    summary: "Same international story localized for Finnish readers.",
+  },
+];
+
 export const education = [
   {
     institution: "Stanford University",
