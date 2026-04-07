@@ -46,7 +46,7 @@ export const projects = {
     {
       title: "Applash AI",
       description:
-        "Study abroad recruiting platform with 9,900+ active users in 2 months, 100 high-intent students in counseling with $400K expected ARR, a proprietary database of 150,000+ commission-paying programs, and organic B2C reach of 2M+ views across social media.",
+        "Study abroad recruiting platform with 137,000 unique visitors/month and a proprietary database of 150,000+ commission-paying programs, and organic B2C reach of 2M+ views across social media.",
       tags: ["AI", "Study Abroad", "Marketplace"],
       link: "https://applash.ai",
     },
