@@ -87,7 +87,7 @@ export const experience = [
   {
     title: "CEO & Founder · Applash AI",
     description:
-      "Leading a study abroad platform with 9,000 users, 100 active counseling cases, ~$400K expected recruitment commission, and a 150,000+ program database across 1,400+ university partners.",
+      "Leading a study abroad recruiting platform with 137,000 unique visitors/month, a proprietary database of 150,000+ commission-paying programs, and organic B2C reach of 2M+ views across social media.",
     date: "Dec 2025 – Present",
   },
   {
